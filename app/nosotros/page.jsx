@@ -15,17 +15,8 @@ export default function Home() {
           nosotrosCardsContent.map((card, index) => (
             <InfoCard key={index} {...card} />
           ))
-
-        }
-        {
-          console.log(nosotrosCardsContent.map((card, index) => (
-            card
-          )))
         }
       </SectionContainer>
-      {/* <div className='max-w-[1440px]'>
-        <Historia />
-      </div> */}
     </main>
   )
 }

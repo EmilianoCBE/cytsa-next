@@ -21,7 +21,7 @@ export const Hero = ({ title, description, heroImage }) => {
           </button>
         </Link>
       </div>
-      <div className='hidden md:block md:w-[55vw] h-full'>
+      <div className='md:w-[55vw] h-full'>
         <div className='relative w-full h-full'>
           <Image 
             src={heroImage} 

@@ -13,7 +13,7 @@ export const InfoCard = ({title, description, iconImage}) => {
       </div>
       <div className="self-center ">
         <div className="bg-white rounded-full p-5 w-[100px]">
-          <Image src={iconImage} alt="" width={50} height={50}/>
+          <Image src={iconImage} alt="" width={60} height={60}/>
         </div>
       </div>
     </div>

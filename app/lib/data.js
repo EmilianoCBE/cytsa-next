@@ -12,7 +12,7 @@ export const navLinks = [
   },
   { label: "Nosotros", href: "/nosotros" },
   { label: "Contacto", href: "/contacto" },
-  { label: "Blog", href: "/blog" },
+  // { label: "Blog", href: "/blog" },
 ]
 
 export const footerContent = [
@@ -79,5 +79,17 @@ export const nosotrosCardsContent = [
     title: "Visión",
     description: "Ser una empresa líder a nivel regional en la elaboración de conexiones y curvas conduit de PVC, ofreciendo un servicio de primer nivel, productos de la más alta calidad y a un precio muy competitivo dentro de este rubro para ofrecer productos innovadores que sean una solución eficaz para nuestros clientes y proveer un ambiente laboral sano donde nuestros empleados puedan innovar y sobresalir para que sus familias tengan la seguridad de un ingreso seguro.",
     iconImage: "/vision.png",
+  },
+]
+
+export const sliderHomeContent = [
+  {
+    imageSlider: "/slider1.jpeg",
+  },
+  {
+    imageSlider: "/slider2.jpeg",
+  },
+  {
+    imageSlider: "/slider3.jpeg",
   },
 ]
