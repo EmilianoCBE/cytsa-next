@@ -12,7 +12,7 @@ export const navLinks = [
   },
   { label: "Nosotros", href: "/nosotros" },
   { label: "Contacto", href: "/contacto" },
-  // { label: "Blog", href: "/blog" },
+  { label: "Blog", href: "/blog" },
 ]
 
 export const footerContent = [
