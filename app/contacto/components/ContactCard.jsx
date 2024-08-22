@@ -3,7 +3,7 @@ import React from 'react'
 
 export const ContactCard = () => {
   return (
-    <section className='flex justify-center flex-col items-start gap-10 py-10 px-8 md:px-16'>
+    <section className='flex justify-center flex-col items-start gap-10 py-10 px-8 md:px-16 md:h-full'>
       <h1 className='text-2xl md:text-[50px] font-bold'>Contáctanos</h1>
       <div className=''>
         <p className='text-xl py-2'>Puede comunicarse por teléfono al:</p>

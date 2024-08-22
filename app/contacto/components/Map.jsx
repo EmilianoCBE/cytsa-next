@@ -20,7 +20,7 @@ const markerData = {
 
 function MapComponent() {
   return (
-    <MapContainer center={markerData.coordinates} zoom={11} style={{ height: "80vh", width: "50vw" }}>
+    <MapContainer center={markerData.coordinates} zoom={11} style={{ height: "100%", width: "50vw" }}>
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
       <Marker position={markerData.coordinates} icon={customIcon}>
         <Popup>{markerData.title}</Popup>

@@ -2,13 +2,13 @@ export const navLinks = [
   { label: "Inicio", href: "/" },
   { 
     label: "Productos", 
-    href: "#", 
-    submenu: [
-      { label: "Alcantarillado", href: "/productos/alcantarillado" },
-      { label: "Sistema Hidráulico", href: "/productos/hidraulico" },
-      { label: "C-900", href: "/productos/c900" },
-      { label: "Cedula 80", href: "/productos/c80" },
-    ],
+    href: "/productos", 
+    // submenu: [
+    //   { label: "Alcantarillado", href: "/productos/alcantarillado" },
+    //   { label: "Sistema Hidráulico", href: "/productos/hidraulico" },
+    //   { label: "C-900", href: "/productos/c900" },
+    //   { label: "Cedula 80", href: "/productos/c80" },
+    // ],
   },
   { label: "Nosotros", href: "/nosotros" },
   { label: "Contacto", href: "/contacto" },
@@ -91,5 +91,28 @@ export const sliderHomeContent = [
   },
   {
     imageSlider: "/slider3.jpeg",
+  },
+]
+
+export const entradasBlog = [
+  {
+    date: '8 jun 2023',
+    title: 'Técnicas y Procedimientos para la Interconexión de Tuberías y Conexiones',
+    link: '/Entrada1.pdf'
+  },
+  {
+    date: '8 jun 2023',
+    title: 'Procedimientos y Técnicas Recomendadas para el Cementado',
+    link: '/Entrada2.pdf'
+  },
+  {
+    date: '8 jun 2023',
+    title: 'Procedimientos y Técnicas Recomendadas para la Elaboración del Bisel o Espiga',
+    link: '/Entrada3.pdf'
+  },
+  {
+    date: '8 jun 2023',
+    title: 'Transporte, Manejo y Almacenamiento de Tubos en Obra',
+    link: '/Entrada4.pdf'
   },
 ]

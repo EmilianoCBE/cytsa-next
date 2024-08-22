@@ -6,8 +6,8 @@ const DynamicMap = dynamic(() => import("@/app/contacto/components/Map"), {ssr: 
 
 export default function Home() {
   return (
-    <main className="flex flex-col md:flex-row md:pt-[133px]">
-      <section className="md:w-[50vw]">
+    <main className="flex flex-col md:flex-row pt-[113px] md:pt-[133px] md:h-screen">
+      <section className="md:w-[50vw] md:h-full">
         <ContactCard />
       </section>
       <section className="md:w-[50vw]">
