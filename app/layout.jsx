@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Navbar } from "@/app/ui/Nabvar";
-import { montserrat } from "@/app/ui/fonts";
+import { montserrat, workSans, openSans } from "@/app/ui/fonts";
 import { Footer } from "@/app/ui/Footer";
 
 export const metadata = {
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={montserrat.className}>
+      <body className={openSans.className}>
         <Navbar />
         {children}
         <Footer />
