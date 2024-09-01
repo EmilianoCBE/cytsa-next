@@ -62,6 +62,11 @@ export const heroContent = {
     description: "Gracias al compromiso y la calidad que ofrecemos a nuestros clientes y al público después de estos 24 años, Somos la mejor opción en la fabricación y asesoría en la adquisición de piezas de PVC fabricadas.",
     heroImage: "/nosotros.png",
   },
+  contacto: {
+    title: "Contacto",
+    description: "Contáctanos para más información o para solicitar una cotización.",
+    heroImage: "/slider2.jpeg",
+  },
 }
 
 export const nosotrosCardsContent = [

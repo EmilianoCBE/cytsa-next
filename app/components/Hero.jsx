@@ -4,10 +4,9 @@ import { Breadcrumbs, BreadcrumbItem } from "@nextui-org/breadcrumbs";
 export const Hero = ({ title, breadCrumb, heroImage }) => {
   return (
     <div 
-      className='relative flex flex-col w-full md:flex-row h-[550px] pt-[113px] md:pt-[133px] bg-center bg-cover bg-no-repeat'
+      className='relative flex flex-col w-full md:flex-row h-[550px] pt-[113px] md:pt-[133px] bg-center bg-cover bg-no-repeat bg-fixed'
       style={{ backgroundImage: `url(${heroImage})` }}
     >
-      {/* Overlay oscuro */}
       <div className='absolute inset-0 bg-black opacity-50'></div>
 
       <div
