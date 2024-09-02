@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={openSans.className}>
+      <body className={montserrat.className}>
         <Navbar />
         {children}
         <Footer />

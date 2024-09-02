@@ -121,3 +121,34 @@ export const entradasBlog = [
     link: '/Entrada4.pdf'
   },
 ]
+
+export const contactCardContent = [
+  {
+    text: 'Puede comunicarse por teléfono al:',
+    link: 'tel:+8180327700',
+    linkText: '(81)80-32-77-00',
+  },
+  {
+    text: 'Así mismo por medio de fax al:',
+    link: 'tel:+8180327700',
+    linkText: '(81)80-32-77-00',
+  },
+  {
+    text: 'También puede mandarnos un mensaje por Whatsapp:',
+    link: 'tel:+8180327700',
+    linkText: 'Whatsapp',
+  },
+  {
+    text: 'O puedes seguirnos en nuestras redes sociales:',
+    social: [
+      {
+        link: 'https://www.facebook.com/profile.php?id=61555752673989',
+        icon: 'facebook',
+      },
+      {
+        link: 'https://www.instagram.com/cytsapvc/',
+        icon: 'instagram',
+      },
+    ]
+  }
+]
