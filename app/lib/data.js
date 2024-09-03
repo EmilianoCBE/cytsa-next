@@ -37,22 +37,22 @@ export const productos = [
   {
     title: "Alcantarillado",
     image: "/alcantarillado.jpg",
-    href: "/productos/alcantarillado",
+    link: "/productos/alcantarillado",
   },
   {
     title: "Sistema Hidráulico",
     image: "/hidraulico.jpg",
-    href: "/productos/hidraulico",
+    link: "/productos/hidraulico",
   },
   {
     title: "C-900",
     image: "/c900.jpg",
-    href: "/productos/c900",
+    link: "/productos/c900",
   },
   {
     title: "Cedula 80",
     image: "/cedula80.png",
-    href: "/productos/c80",
+    link: "/productos/c80",
   },
 ]
 
@@ -67,6 +67,17 @@ export const heroContent = {
     description: "Contáctanos para más información o para solicitar una cotización.",
     heroImage: "/slider2.jpeg",
   },
+  blog: {
+    title: "Blog",
+    description: "Encuentra aquí información útil y relevante para tu proyecto.",
+    heroImage: "/blog.jpg",
+  },
+  productos: {
+    title: "Productos",
+    description: "Conoce nuestra gama de productos de PVC.",
+    heroImage: "/productos.jpg",
+  },
+  
 }
 
 export const nosotrosCardsContent = [
@@ -103,22 +114,26 @@ export const entradasBlog = [
   {
     date: '8 jun 2023',
     title: 'Técnicas y Procedimientos para la Interconexión de Tuberías y Conexiones',
-    link: '/Entrada1.pdf'
+    link: '/Entrada1.pdf',
+    image: '/blog1.jpg',
   },
   {
     date: '8 jun 2023',
     title: 'Procedimientos y Técnicas Recomendadas para el Cementado',
-    link: '/Entrada2.pdf'
+    link: '/Entrada2.pdf',
+    image: '/blog2.jpg',
   },
   {
     date: '8 jun 2023',
     title: 'Procedimientos y Técnicas Recomendadas para la Elaboración del Bisel o Espiga',
-    link: '/Entrada3.pdf'
+    link: '/Entrada3.pdf',
+    image: '/blog3.jpg',
   },
   {
     date: '8 jun 2023',
     title: 'Transporte, Manejo y Almacenamiento de Tubos en Obra',
-    link: '/Entrada4.pdf'
+    link: '/Entrada4.pdf',
+    image: '/blog4.jpg',
   },
 ]
 

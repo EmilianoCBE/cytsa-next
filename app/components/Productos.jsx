@@ -7,7 +7,7 @@ export const Productos = () => {
       <h2 className='text-2xl md:text-[42px] font-bold'>
         Nuestros Productos
       </h2>
-      <div className='flex flex-col md:flex-row gap-4 justify-center md:justify-between py-8 md:py-16'>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-10 md:pt-20">
         {
           productos.map((producto, index) => (
             <ProductCard key={index} {...producto} />

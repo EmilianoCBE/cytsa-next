@@ -1,21 +1,29 @@
-import Image from 'next/image'
+import { SecondaryButton } from '@/app/ui/Buttons'
 import React from 'react'
 
-export const EntradaBlog = ({date, title, link}) => {
+export const EntradaBlog = ({date, title, link, image}) => {
   return (
-      <a href={link} target='_blank' className='cursor-pointer border border-slate-500 px-4 py-4 w-[350px] hover:bg-orange-500 transition-all ease-in-out text-black hover:text-slate-100'>
-        <div className='w-full h-full py-3'>
-          <div className="flex items-center gap-3">
-            <div className='bg-white rounded-full p-3 w-[80px]'>
+      <a href={link} target='_blank' className='cursor-pointer w-[345px] md:w-[430px]'>
+        <div className='w-full h-full relative overflow-hidden'>
+          <div className="flex items-end justify-end bg-center bg-cover bg-no-repeat h-[224px] md:h-[280px] transition-all duration-300 hover:scale-105"
+            style={{ backgroundImage: `url(${image})` }}
+          >
+            {/* <div className='bg-white rounded-full p-3 w-[80px]'>
               <Image src="/logo.png" alt="" width={60} height={60}/>
-            </div>
-            <span>
-              {date}
-            </span>
+            </div> */}
+            {/* <div className='bg-white w-20 h-20 flex justify-center items-center'>
+              <span className='text-[14px]'>{date}</span>
+            </div> */}
           </div>
-          <h2 className='pt-3 font-bold text-md'>
-            {title}
-          </h2>
+          <div className='bg-white py-4 flex justify-start items-center border-b border-[#d9d9d9]'>
+            <span className=''>{date}</span>
+          </div>
+          <div className='hover:text-orange-500 transition-all ease-in-out text-black '>
+            <h2 className='pt-3 font-bold text-lg'>
+              {title}
+            </h2>
+          </div> 
+          <SecondaryButton link={link} text='Ver más' classNames='mt-3'/>
         </div>
       </a>
   )
