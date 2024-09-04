@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <main className='flex flex-col items-center'>
-      <Hero title={title} description='Productos' heroImage={heroImage}/>
+      <Hero title={title} breadCrumb='Productos' heroImage={heroImage}/>
       <SectionContainer className='pb-20 w-full'>
         <div className="flex flex-col gap-5 items-center md:items-start border-b border-[#d1d1d1] pb-12">
           <SubBreadcrumb text='Nuestros productos' />

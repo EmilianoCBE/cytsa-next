@@ -6,7 +6,7 @@ export const ContactCard = ({ text, link, linkText, social }) => {
       {text && <p className='text-xl py-2 border-b border-[#444444]'>{text}</p>}
       {link && linkText && (
         <div className='mt-4'>
-          <a href={link} className='text-orange-500 text-lg font-bold'>
+          <a href={link} className='text-red-700 text-lg font-bold'>
             {linkText === 'Whatsapp' ? (
               <div className='flex items-center gap-2'>
                 <WhatsAppOutlined style={{ fontSize: '30px', color: '#F97316' }} />

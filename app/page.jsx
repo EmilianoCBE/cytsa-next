@@ -1,7 +1,8 @@
 'use client'
 import { MainHero } from "@/app/components/MainHero";
 import { Scroller } from "@/app/ui/Scroller";
-import { Productos } from "@/app/components/Productos";
+import { productos } from '@/app/lib/data'
+import { ProductCard } from '@/app/components/ProductCard'
 import { SectionContainer } from "@/app/ui/SectionContainer";
 import EmblaCarousel from "@/app/components/EmblaCarousel";
 import { SecondaryButton } from "@/app/ui/Buttons";
@@ -12,8 +13,17 @@ export default function Home() {
     <main>
       <MainHero />
       <Scroller />
-      <SectionContainer>
-        <Productos />
+      <SectionContainer className='pt-4 md:pt-8 '>
+        <h2 className='text-2xl md:text-[42px] font-bold'>
+          Nuestros Productos
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-10 md:pt-20">
+          {
+            productos.map((producto, index) => (
+              <ProductCard key={index} {...producto} />
+            ))
+          }
+        </div>
       </SectionContainer>
       <SectionContainer className="pb-12 md:pb-20">
         

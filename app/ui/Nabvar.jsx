@@ -45,7 +45,7 @@ export const Navbar = () => {
         <div className='w-full hidden md:flex justify-end'>
           <ul className='flex justify-between gap-4'>
             {navLinks.map((link, index) => (
-              <li key={index} className="font-medium hover:text-orange-500">
+              <li key={index} className="font-medium hover:text-red-700">
                 {link.submenu ? (
                   <div className="relative" ref={dropdownRef}>
                     <button onClick={toggleDropdown} className="flex items-center">
@@ -62,7 +62,7 @@ export const Navbar = () => {
                         >
                           {link.submenu.map((sublink, subIndex) => (
                             <li key={subIndex} className="py-2 px-4 hover:bg-gray-100">
-                              <Link href={sublink.href} className="hover:text-orange-500">
+                              <Link href={sublink.href} className="hover:text-red-700">
                                 {sublink.label}
                               </Link>
                             </li>
@@ -100,7 +100,7 @@ export const Navbar = () => {
           >
             <ul className='flex flex-col items-center gap-4'>
               {navLinks.map((link, index) => (
-                <li key={index} className="font-bold hover:text-orange-500 transition-all ease-in-out">
+                <li key={index} className="font-bold hover:text-red-700 transition-all ease-in-out">
                   {link.submenu ? (
                     <div className="relative" ref={dropdownRef}>
                       <button onClick={toggleDropdown} className="flex items-center">
@@ -117,7 +117,7 @@ export const Navbar = () => {
                           >
                             {link.submenu.map((sublink, subIndex) => (
                               <li key={subIndex} className="py-2 px-4 hover:bg-gray-100">
-                                <Link href={sublink.href} onClick={toggleNavbar} className="hover:text-orange-500">
+                                <Link href={sublink.href} onClick={toggleNavbar} className="hover:text-red-700">
                                   {sublink.label}
                                 </Link>
                               </li>

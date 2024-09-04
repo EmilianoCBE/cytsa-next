@@ -10,7 +10,7 @@ export const MainHero = () => {
       {/* <div className='md:w-[45vw] flex gap-5 flex-col justify-center md:justify-start items-start py-11 bg-[url("/hero.webp")]  md:bg-[url("/fondo.webp")] bg-cover md:bg-contain bg-bottom bg-no-repeat px-8 h-[80vh] md:h-auto'>
         <h1 className='text-2xl md:text-[50px] text-slate-100 md:text-black font-bold leading-10 md:leading-[56px]'>CONEXIONES Y TRANSFORMACIONES PLÁSTICAS DE MONTERREY</h1>
         <Link href="/contacto">
-          <button className='p-3 bg-orange-500 rounded-md text-slate-100 hover:bg-white hover:text-orange-500 border-orange-500 border transition-all ease-in-out'>
+          <button className='p-3 bg-red-700 rounded-md text-slate-100 hover:bg-white hover:text-red-700 border-red-700 border transition-all ease-in-out'>
             Contáctanos
           </button>
         </Link>

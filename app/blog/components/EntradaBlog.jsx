@@ -3,7 +3,7 @@ import React from 'react'
 
 export const EntradaBlog = ({date, title, link, image}) => {
   return (
-      <a href={link} target='_blank' className='cursor-pointer w-[345px] md:w-[430px]'>
+      <div className='cursor-pointer w-[345px] md:w-[430px]'>
         <div className='w-full h-full relative overflow-hidden'>
           <div className="flex items-end justify-end bg-center bg-cover bg-no-repeat h-[224px] md:h-[280px] transition-all duration-300 hover:scale-105"
             style={{ backgroundImage: `url(${image})` }}
@@ -18,13 +18,13 @@ export const EntradaBlog = ({date, title, link, image}) => {
           <div className='bg-white py-4 flex justify-start items-center border-b border-[#d9d9d9]'>
             <span className=''>{date}</span>
           </div>
-          <div className='hover:text-orange-500 transition-all ease-in-out text-black '>
+          <div className='hover:text-red-700 transition-all ease-in-out text-black '>
             <h2 className='pt-3 font-bold text-lg'>
               {title}
             </h2>
           </div> 
           <SecondaryButton link={link} text='Ver más' classNames='mt-3'/>
         </div>
-      </a>
+      </div>
   )
 }

@@ -1,19 +1,27 @@
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 
-export const ProductCard = ({link, title, image}) => {
+export const ProductCardDetail = ({ title, image }) => {
   return (
-    <Link href={link} target='_blank' className='cursor-pointer w-[345px] md:w-[430px]'>
-        <div className='w-full h-full relative overflow-hidden'>
-          <div className="flex items-end justify-end bg-center bg-cover bg-no-repeat h-[224px] md:h-[280px] transition-all duration-300 hover:scale-105"
-            style={{ backgroundImage: `url(${image})` }}
-          >
-            <div className='hover:text-orange-500 transition-all ease-in-out text-black '>
-            <h2 className='pt-3 font-bold text-lg'>
-              {title}
-            </h2>
-          </div> 
-          </div>
+    <div className='w-[345px] md:w-[660px]'>
+      <div className='w-full h-full relative overflow-hidden group'>
+        <div
+          className="h-[360px] md:h-[520px] transition-transform duration-300 group-hover:scale-105"
+        >
+          <Image
+            src={image}
+            fill={true}
+            objectFit="cover"
+            alt={title}
+          />
         </div>
-      </Link>
-  )
-}
+        <div className='absolute bottom-0 left-0 w-full px-8 py-20 bg-transparent overflow-hidden'>
+          <h2 className='font-bold text-2xl md:text-[50px] text-slate-100 relative z-10'>
+            {title}
+          </h2>
+          <div className="absolute inset-0 bg-red-700 w-0 transition-all duration-500 group-hover:w-full z-0"></div>
+        </div>
+      </div>
+    </div>
+  );
+};

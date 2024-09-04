@@ -18,7 +18,7 @@ export default function Home() {
           <EmblaCarousel className='md:w-[50vw] h-[200px] md:h-auto'/>
           <div className='md:px-16 md:w-[50vw] flex items-start flex-col'>
             <div className="flex items-center space-x-3 mb-3">
-              <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+              <div className="w-2 h-2 bg-red-700 rounded-full"></div>
               <span className="text-lg font-medium text-gray-800">Acerca de Nosotros</span>
             </div>
             <h2 className="text-2xl md:text-[42px] font-bold border-b md:leading-10 pb-8 mb-7">
@@ -29,10 +29,6 @@ export default function Home() {
             </p>
             <SecondaryButton link='/nosotros' text='Conoce más' classNames='mt-8' />
           </div>
-        </div>
-
-        <div>
-
         </div>
 
         <div className="grid grid-cols-1 gap-4 md:grid-cols-5">

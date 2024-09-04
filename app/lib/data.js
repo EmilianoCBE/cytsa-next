@@ -77,7 +77,11 @@ export const heroContent = {
     description: "Conoce nuestra gama de productos de PVC.",
     heroImage: "/productos.jpg",
   },
-  
+  alcantarillado: {
+    title: "Alcantarillado",
+    description: "Conoce nuestra gama de productos de PVC para alcantarillado.",
+    heroImage: "/alcantarillado.jpg",
+  },
 }
 
 export const nosotrosCardsContent = [
@@ -166,4 +170,15 @@ export const contactCardContent = [
       },
     ]
   }
+]
+
+export const productosAlcantarillado = [
+  {
+    titleDetail: "Alcantarillado",
+    image: "/alcantarillado.jpg",
+  },
+  {
+    titleDetail: "Tapon Alcantarillado",
+    image: "/taponAlcantarillado.jpg",
+  },
 ]
