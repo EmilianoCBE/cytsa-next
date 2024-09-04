@@ -16,7 +16,7 @@ export const ProductCardDetail = ({ title, image }) => {
           />
         </div>
         <div className='absolute bottom-0 left-0 w-full px-8 py-20 bg-transparent overflow-hidden'>
-          <h2 className='font-bold text-2xl md:text-[50px] text-slate-100 relative z-10'>
+          <h2 className='font-bold text-2xl md:text-[50px] text-slate-100 relative z-10 leading-normal'>
             {title}
           </h2>
           <div className="absolute inset-0 bg-red-700 w-0 transition-all duration-500 group-hover:w-full z-0"></div>

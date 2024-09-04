@@ -43,7 +43,7 @@ export default function Home() {
           }
         </div>
 
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row pb-10 md:pb-20">
           <div className='md:w-[30vw] flex items-start flex-col'>
               <h2 className="text-2xl w-full md:w-auto text-center md:text-start md:text-[42px] font-bold border-b md:leading-10 pb-8 mb-7">
                 Ventajas
@@ -73,7 +73,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pb-10 md:pb-20">
           {
-            productosAlcantarillado.slice(0, 2).map((product, index) => (
+            productosAlcantarillado.slice(2).map((product, index) => (
               <ProductCardDetail key={index} title={product.titleDetail} image={product.image} />
             ))
           }

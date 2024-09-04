@@ -181,4 +181,32 @@ export const productosAlcantarillado = [
     titleDetail: "Tapon Alcantarillado",
     image: "/taponAlcantarillado.jpg",
   },
+  {
+    titleDetail: "Tapón Campana Alcantarillado",
+    image: "/taponCampanaAlcantarillado.jpg",
+  },
+  {
+    titleDetail: "Silleta Yee Alcantarillado con Campana",
+    image: "/silletaAlcantarillado.jpg",
+  },
+  {
+    titleDetail: "Silleta Slam Alcantarillada",
+    image: "/silletaSlamAlcantarillada.jpg",
+  },
+  {
+    titleDetail: "Tee Alcantarillada con Campana",
+    image: "/teeAlcantarillada.jpg",
+  },
+  {
+    titleDetail: "Tee Reducida Alcantarillada con Campana",
+    image: "/teeReducidaAlcantarillada.jpg",
+  },
+  {
+    titleDetail: "Cople Reparación Alcantarillado",
+    image: "/copleReparacionAlcantarillado.jpg",
+  },
+  {
+    titleDetail: "Cople de Transición Alcantarillado a Tubo Corrugado",
+    image: "/copleTransicionAlcantarillado.jpg",
+  }
 ]
