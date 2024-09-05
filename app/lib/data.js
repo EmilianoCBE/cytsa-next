@@ -287,3 +287,31 @@ export const productosC900 = [
     image: "/extremoCampanaC900.jpg",
   }
 ]
+
+
+export const productosCedula80 = [
+  {
+    titleDetail: "",
+    image: "/1.webp",
+  },
+  {
+    titleDetail: "",
+    image: "/2.webp",
+  },
+  {
+    titleDetail: "",
+    image: "/3.webp",
+  },
+  {
+    titleDetail: "",
+    image: "/4.webp",
+  },
+  {
+    titleDetail: "",
+    image: "/5.webp",
+  },
+  {
+    titleDetail: "",
+    image: "/6.webp",
+  }
+]

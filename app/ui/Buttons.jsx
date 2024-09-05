@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const MainButton = ({link, text, classNames = ''}) => {
   return (
-    <Link href={link}>
+    <Link href={link} className='pointer'>
       {/* <button className={`font-bold p-3 bg-red-700 text-slate-100 hover:bg-white hover:text-red-700 border-red-700 border transition-all ease-in-out ${classNames}`}>
         {text}
       </button> */}
