@@ -52,7 +52,7 @@ export const productos = [
   {
     title: "Cedula 80",
     image: "/cedula80.webp",
-    link: "/productos/c80",
+    link: "/productos/cedula80",
   },
 ]
 
@@ -86,6 +86,16 @@ export const heroContent = {
     title: "Sistema Hidráulico",
     description: "Conoce nuestra gama de productos de PVC para sistema hidráulico.",
     heroImage: "/hidraulico.webp",
+  },
+  c900: {
+    title: "C-900",
+    description: "Conoce nuestra gama de productos de PVC para sistema hidráulico.",
+    heroImage: "/c900.webp",
+  },
+  cedula80: {
+    title: "Cedula 80",
+    description: "Conoce nuestra gama de productos de PVC para sistema hidráulico.",
+    heroImage: "/cedula80.webp",
   },
 }
 
@@ -256,5 +266,24 @@ export const productosHidraulico = [
   {
     titleDetail: "Cople Cementar",
     image: "/copleCementar.jpg",
+  }
+]
+
+export const productosC900 = [
+  {
+    titleDetail: "Codo de 90°",
+    image: "/c900.webp",
+  },
+  {
+    titleDetail: "Extremo Espiga",
+    image: "/extremoEspigaC900.jpg",
+  },
+  {
+    titleDetail: "Codo de 45°",
+    image: "/codo45C900.jpg",
+  },
+  {
+    titleDetail: "Extremo Campana",
+    image: "/extremoCampanaC900.jpg",
   }
 ]
