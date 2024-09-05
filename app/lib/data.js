@@ -36,22 +36,22 @@ export const footerContent = [
 export const productos = [
   {
     title: "Alcantarillado",
-    image: "/alcantarillado.jpg",
+    image: "/alcantarillado.webp",
     link: "/productos/alcantarillado",
   },
   {
     title: "Sistema Hidráulico",
-    image: "/hidraulico.jpg",
+    image: "/hidraulico.webp",
     link: "/productos/hidraulico",
   },
   {
     title: "C-900",
-    image: "/c900.jpg",
+    image: "/c900.webp",
     link: "/productos/c900",
   },
   {
     title: "Cedula 80",
-    image: "/cedula80.png",
+    image: "/cedula80.webp",
     link: "/productos/c80",
   },
 ]
@@ -60,27 +60,32 @@ export const heroContent = {
   nosotros: {
     title: "Nosotros",
     description: "Gracias al compromiso y la calidad que ofrecemos a nuestros clientes y al público después de estos 24 años, Somos la mejor opción en la fabricación y asesoría en la adquisición de piezas de PVC fabricadas.",
-    heroImage: "/nosotros.png",
+    heroImage: "/nosotros.webp",
   },
   contacto: {
     title: "Contacto",
     description: "Contáctanos para más información o para solicitar una cotización.",
-    heroImage: "/slider2.jpeg",
+    heroImage: "/slider2.webp",
   },
   blog: {
     title: "Blog",
     description: "Encuentra aquí información útil y relevante para tu proyecto.",
-    heroImage: "/blog.jpg",
+    heroImage: "/blog.webp",
   },
   productos: {
     title: "Productos",
     description: "Conoce nuestra gama de productos de PVC.",
-    heroImage: "/productos.jpg",
+    heroImage: "/productos.webp",
   },
   alcantarillado: {
     title: "Alcantarillado",
     description: "Conoce nuestra gama de productos de PVC para alcantarillado.",
-    heroImage: "/alcantarillado.jpg",
+    heroImage: "/alcantarillado.webp",
+  },
+  hidraulico: {
+    title: "Sistema Hidráulico",
+    description: "Conoce nuestra gama de productos de PVC para sistema hidráulico.",
+    heroImage: "/hidraulico.webp",
   },
 }
 
@@ -104,13 +109,13 @@ export const nosotrosCardsContent = [
 
 export const sliderHomeContent = [
   {
-    imageSlider: "/slider1.jpeg",
+    imageSlider: "/slider1.webp",
   },
   {
-    imageSlider: "/slider2.jpeg",
+    imageSlider: "/slider2.webp",
   },
   {
-    imageSlider: "/slider3.jpeg",
+    imageSlider: "/slider3.webp",
   },
 ]
 
@@ -119,25 +124,25 @@ export const entradasBlog = [
     date: '8 jun 2023',
     title: 'Técnicas y Procedimientos para la Interconexión de Tuberías y Conexiones',
     link: '/Entrada1.pdf',
-    image: '/blog1.jpg',
+    image: '/blog1.webp',
   },
   {
     date: '8 jun 2023',
     title: 'Procedimientos y Técnicas Recomendadas para el Cementado',
     link: '/Entrada2.pdf',
-    image: '/blog2.jpg',
+    image: '/blog2.webp',
   },
   {
     date: '8 jun 2023',
     title: 'Procedimientos y Técnicas Recomendadas para la Elaboración del Bisel o Espiga',
     link: '/Entrada3.pdf',
-    image: '/blog3.jpg',
+    image: '/blog3.webp',
   },
   {
     date: '8 jun 2023',
     title: 'Transporte, Manejo y Almacenamiento de Tubos en Obra',
     link: '/Entrada4.pdf',
-    image: '/blog4.jpg',
+    image: '/blog4.webp',
   },
 ]
 
@@ -174,8 +179,8 @@ export const contactCardContent = [
 
 export const productosAlcantarillado = [
   {
-    titleDetail: "Alcantarillado",
-    image: "/alcantarillado.jpg",
+    titleDetail: "Codo de 90° Alcantarillado, Campana y Anillo ",
+    image: "/alcantarillado.webp",
   },
   {
     titleDetail: "Tapon Alcantarillado",
@@ -208,5 +213,48 @@ export const productosAlcantarillado = [
   {
     titleDetail: "Cople de Transición Alcantarillado a Tubo Corrugado",
     image: "/copleTransicionAlcantarillado.jpg",
+  }
+]
+
+export const productosHidraulico = [
+  {
+    titleDetail: "Silleta para Tubo Cedula 40 Cementar",
+    image: "/silletaTuboHidraulico.jpg",
+  },
+  {
+    titleDetail: "Tee Hidratante Hidráulico con Campanas",
+    image: "/teeHidratanteHidraulico.jpg",
+  },
+  {
+    titleDetail: "Codo Espiga Largo tipo Hidratante Sistema Métrico",
+    image: "/codoEspigaHidraulico.jpg",
+  },
+  {
+    titleDetail: "Tapón Campana Sitema Métrico",
+    image: "/taponCampanaHidraulico.jpg",
+  },
+  {
+    titleDetail: "Tapa Cementar",
+    image: "/tapaCementar.jpg",
+  },
+  {
+    titleDetail: "Reducción Campana Sistema Métrico",
+    image: "/reduccionCampanaHidraulico.jpg",
+  },
+  {
+    titleDetail: "Manga de Empotramiento para Pozo de Visita",
+    image: "/mangaEmpotramientoHidraulico.jpg",
+  },
+  {
+    titleDetail: "Extremo Espiga Sistema Inglés",
+    image: "/extremoEspigaHidraulico.jpg",
+  },
+  {
+    titleDetail: "Cruz Sistema Métrico Hidráulico con Campanas", 
+    image: "/cruzHidraulico.jpg",
+  },
+  {
+    titleDetail: "Cople Cementar",
+    image: "/copleCementar.jpg",
   }
 ]
