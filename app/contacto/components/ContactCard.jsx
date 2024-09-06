@@ -9,7 +9,7 @@ export const ContactCard = ({ text, link, linkText, social }) => {
           <a href={link} className='text-red-700 text-lg font-bold'>
             {linkText === 'Whatsapp' ? (
               <div className='flex items-center gap-2'>
-                <WhatsAppOutlined style={{ fontSize: '30px', color: '#F97316' }} />
+                <WhatsAppOutlined style={{ fontSize: '30px', color: '#B91C1C' }} />
                 <span>{linkText}</span>
               </div>
             ) : (
@@ -23,8 +23,8 @@ export const ContactCard = ({ text, link, linkText, social }) => {
         <div className='flex gap-4 mt-4'>
           {social.map((network, index) => (
             <a key={index} href={network.link}>
-              {network.icon === 'facebook' && <FacebookOutlined style={{ fontSize: '30px', color: '#F97316' }} />}
-              {network.icon === 'instagram' && <InstagramOutlined style={{ fontSize: '30px', color: '#F97316' }} />}
+              {network.icon === 'facebook' && <FacebookOutlined style={{ fontSize: '30px', color: '#B91C1C' }} />}
+              {network.icon === 'instagram' && <InstagramOutlined style={{ fontSize: '30px', color: '#B91C1C' }} />}
             </a>
           ))}
         </div>

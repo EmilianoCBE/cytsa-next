@@ -14,7 +14,7 @@ const customIcon = L.icon({
 });
 
 const markerData = {
-  coordinates: [25.6751, -100.4584], 
+  coordinates: [25.706535, -100.479858], 
   title: "Del poniente #273, Col. Parque industrial Microempresarios del Pte. Santa Catarina, Nuevo León, 66369, México",
 };
 

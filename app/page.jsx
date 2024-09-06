@@ -13,7 +13,7 @@ export default function Home() {
     <main>
       <MainHero />
       <Scroller />
-      <SectionContainer className='pt-4 md:pt-8 '>
+      <SectionContainer className='pt-10 md:pt-20'>
         <h2 className='text-2xl md:text-[42px] font-bold'>
           Nuestros Productos
         </h2>
