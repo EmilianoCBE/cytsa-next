@@ -45,7 +45,7 @@ export const Navbar = () => {
         <div className='w-full hidden md:flex justify-end'>
           <ul className='flex justify-between gap-4'>
             {navLinks.map((link, index) => (
-              <li key={index} className="font-medium hover:text-red-700">
+              <li key={index} className="font-bold hover:text-red-700">
                 {link.submenu ? (
                   <div className="relative" ref={dropdownRef}>
                     <button onClick={toggleDropdown} className="flex items-center">
