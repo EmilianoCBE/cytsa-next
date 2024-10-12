@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const ProductCardDetail = ({ title, image, titleExist = true }) => {
   return (
-    <div className='w-[345px] md:w-[660px]'>
+    <div className='md:w-[660px]'>
       <div className='w-full h-full relative overflow-hidden group'>
         <div
           className="h-[360px] md:h-[520px] transition-transform duration-300 group-hover:scale-105"
