@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const ProductCard = ({ link, title, image }) => {
   return (
-    <Link href={link} className='cursor-pointer w-[345px] md:w-[660px]'>
+    <Link href={link} className='cursor-pointer md:w-[660px]'>
       <div className='w-full h-full relative overflow-hidden group'>
         <div
           className="bg-center bg-cover bg-no-repeat h-[360px] md:h-[520px] transition-transform duration-300 group-hover:scale-105"
