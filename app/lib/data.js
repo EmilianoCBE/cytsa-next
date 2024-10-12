@@ -133,25 +133,25 @@ export const entradasBlog = [
   {
     date: '8 jun 2023',
     title: 'Técnicas y Procedimientos para la Interconexión de Tuberías y Conexiones',
-    link: '/Entrada1.pdf',
+    link: '/pdfs/Entrada1.pdf',
     image: '/blog1.webp',
   },
   {
     date: '8 jun 2023',
     title: 'Procedimientos y Técnicas Recomendadas para el Cementado',
-    link: '/Entrada2.pdf',
+    link: '/pdfs/Entrada2.pdf',
     image: '/blog2.webp',
   },
   {
     date: '8 jun 2023',
     title: 'Procedimientos y Técnicas Recomendadas para la Elaboración del Bisel o Espiga',
-    link: '/Entrada3.pdf',
+    link: '/pdfs/Entrada3.pdf',
     image: '/blog3.webp',
   },
   {
     date: '8 jun 2023',
     title: 'Transporte, Manejo y Almacenamiento de Tubos en Obra',
-    link: '/Entrada4.pdf',
+    link: '/pdfs/Entrada4.pdf',
     image: '/blog4.webp',
   },
 ]
